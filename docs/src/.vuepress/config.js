@@ -45,6 +45,10 @@ module.exports = {
         text: 'Packagist',
         link: 'https://packagist.org/packages/davidpeach/composer-manuscript'
       },
+      {
+        text: 'David Peach',
+        link: 'https://davidpeach.co.uk'
+      },
     ],
     sidebar: {
       '/guide/': [
