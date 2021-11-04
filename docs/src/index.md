@@ -1,8 +1,8 @@
 ---
 home: true
 tagline: Attempting to streamline PHP Composer package development
-actionText: Guide →
-actionLink: /guide/
+actionText: Quick Start →
+actionLink: /guide/quick-start.html
 features:
 - title: manuscript create 
   details: Scaffold a basic composer package
