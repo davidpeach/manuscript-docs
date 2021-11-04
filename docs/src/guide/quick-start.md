@@ -24,3 +24,9 @@ manuscript init
 ```
 
 You are now ready to use manuscript to help with building php composer packages. Head to the [commands glossary](./commands.md). 
+
+## Uninstall
+
+```bash
+composer global remove davidpeach/composer-manuscript
+```
