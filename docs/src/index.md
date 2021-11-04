@@ -1,6 +1,5 @@
 ---
 home: true
-heroImage: https://v1.vuepress.vuejs.org/hero.png
 tagline: Attempting to streamline PHP Composer package development
 actionText: Guide →
 actionLink: /guide/
