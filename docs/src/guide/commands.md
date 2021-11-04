@@ -16,7 +16,7 @@ Run the command from within the directory that you want to become a manuscript r
 
 ### Description
 
-Initialize a directory into a manuscript root.
+Initializes a directory as a manuscript root.
 
 A manuscript root is just a directory with a `.manuscript` file and two folders: `packages` and `playgrounds`. Other than that, there is nothing particularly special about it.
 
@@ -40,11 +40,16 @@ This command must be run from inside a manuscript root.
 
 `--dir -d` (Specify a directory to run the command from. Defaults to the current directory.)
 
-Scaffold a new composer package with the `create` command. Passing the `-l` or `--laravel` flag will scaffold a laravel package.
+### Description
 
-Laravel packages are created from a github template provided by Spatie. Manuscript uses Github’s api to create a new repository in your own Github account using that template, before cloning it down to your local manuscript packages folder.
+Scaffolds a new composer package with the `create` command. Passing the `-l` or `--laravel` flag will scaffold a 
+laravel package.
 
-Because the laravel package scaffolding replies on Github’s API, you will need to get a Github Personal Access Token and paste it in to the manuscript command when it asks you for it.
+Laravel packages are created from a github template provided by Spatie. Manuscript uses Github’s API to create a new 
+repository in your own Github account using that template, before cloning it down to your local manuscript packages folder.
+
+Because the laravel package scaffolding relies on Github’s API, you will need to get a [Github Personal Access Token](https://github.com/settings/tokens) 
+and paste it in to the manuscript command when it asks you for it.
 
 
 ## Play
@@ -61,9 +66,16 @@ This command must be run from inside a package that lives inside a manuscript pa
 
 `--dir -d` (Specify a directory to run the command from. Defaults to the current directory.)
 
-Download a framework “playground” inside your local manuscript playgrounds folder and install the given package into it.
+### Description
 
-This sets up the playground’s composer json to use the “path” type for your local package. This in turn symlinks your local package into the playground’s vendor folder. So you can develop your package locally and see the changes update in the playground as you go.
+Downloads a framework “playground” inside your local manuscript playgrounds folder and install the given package 
+into it.
+
+Once you have at least one playground installed, you will be given the option to install your package into an 
+existing one. The means **you could install multiple packages you are building into a single playground**. 
+
+It sets up the playground’s composer json to use the “path” type for your local package. This in turn symlinks your 
+local package into the playground’s vendor folder. So you can develop your package locally and see the changes update in the playground as you go.
 
 ## Clear Playgrounds
 
@@ -79,5 +91,8 @@ This command must be run from inside a manuscript root.
 
 `--dir -d` (Specify a directory to run the command from. Defaults to the current directory.)
 
-Clear out the playground directory for starting fresh. This will have no effect on your packages you are working on. Playgrounds are free to be discarded and rebuilt with the `play` command.
+### Description
+
+Clears out the playground directory for starting fresh. This will have no effect on your packages you are working on.
+**Playgrounds are free to be discarded and then rebuilt with the `play` command**.
 

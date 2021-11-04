@@ -14,17 +14,21 @@ Early on in it’s development I had visions of it being this big thing that cou
 
 ## Why build it?
 
-I was building a laravel package for work and set up a  local laravel installation and used the path repository setting manually. It’s pretty easy to set up, once you know how.
+I was building a Laravel package for work. So I set up a local Laravel installation and installed my new package 
+into it manually, using the path repository setting. It’s pretty easy to set up, once you know how.
 
-Then I had an idea for another package I wanted to build. So I went through the same process of setup.
+This way you can see your changes reflected instantly in a framework setting.
+
+Then I had an idea for another package that I wanted to build. So I went through the same process of setting it up.
 
 At that point I thought “I wish there was a way to make this process quick, easy and as automated as possible”...
 
-...lightbulb moment.
+...light bulb moment.
 
 I did have a quick search for tools and didn’t find anything at the time. So I began trying to make my own.
 
 It’s been through various iterations -- and has changed a lot -- but all within the same repository.
 
-Through the course of building myself a little tool, it has become more of a passion project that I hope can help the wider php community.
+Through the course of building myself a little tool, it has become more of **a passion project that I hope can help 
+the wider php community**.
 
