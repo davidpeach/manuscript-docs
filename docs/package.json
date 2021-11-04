@@ -1,0 +1,19 @@
+{
+  "name": "manuscript-docs",
+  "version": "0.0.1",
+  "description": "Manuscript documentation",
+  "main": "index.js",
+  "authors": {
+    "name": "David Peach",
+    "email": "mail@davidpeach.co.uk"
+  },
+  "repository": "/manuscript-docs",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
